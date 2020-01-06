@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First post!
-image: /img/avatar-icon.png
+image: /img/Wolf.png
 ---
 
 你好博客!
