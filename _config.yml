@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: 我的博客
+title: 挑战我自己
 
 # Short description of your site
-description: 与时俱进
+#description: 与时俱进
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
