@@ -2,7 +2,7 @@
 layout: post
 title: 奇晓梦
 subtitle: 2019年4月6日-2019年12月22日
-tags: [人生,情感]
+tags: [人生]
 #bigimg: Include a large full-width image at the top of the page. You can either give the path to a single image, or provide a list of images to cycle through.
 comments: true
 ---
