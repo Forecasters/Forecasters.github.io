@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: 挑战我自己
+title: TigerWolf
 
 # Short description of your site
-description: 表达自己的观点，分享有用的知识
+description: Express opinions and share knowledge
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -197,57 +197,57 @@ exclude:
   - Vagrantfile
 
 # prose.io config
-prose:
- rooturl: '_posts'
- media: 'img'
- ignore:
-   - 404.html
-   - LICENSE
-   - feed.xml
-   - _config.yml
-   - /_layouts
-   - /_includes
-   - /css
-   - /img
-   - /js
- metadata:
-   _posts:
-     - name: "layout"
-       field:
-         element: "hidden"
-         value: "post"
-     - name: "title"
-       field:
-         element: "text"
-         label: "Post title"
-         placeholder: "Title"
-         alterable: true
-     - name: "subtitle"
-       field:
-         element: "textarea"
-         label: "Subtitle"
-         placeholder: "A description of your post."
-         alterable: true
-     - name: "date"
-       field:
-         element: "text"
-         label: "Date"
-         help: "Enter date of post."
-         placeholder: "yyyy-mm-dd"
-         alterable: true
-     - name: "image"
-       field:
-         element: "text"
-         label: "Image"
-         help: "Add a thumbnail image to your post."
-         placeholder: "Thumbnail"
-         alterable: true
-     - name: "published"
-       field:
-         element: "checkbox"
-         label: "Publish"
-         help: "Check to publish post, uncheck to hide."
-
+#prose:
+#  rooturl: '_posts'
+#  media: 'img'
+#  ignore:
+#    - 404.html
+#    - LICENSE
+#    - feed.xml
+#    - _config.yml
+#    - /_layouts
+#    - /_includes
+#    - /css
+#    - /img
+#    - /js
+#  metadata:
+#    _posts:
+#      - name: "layout"
+#        field:
+#          element: "hidden"
+#          value: "post"
+#      - name: "title"
+#        field:
+#          element: "text"
+#          label: "Post title"
+#          placeholder: "Title"
+#          alterable: true
+#      - name: "subtitle"
+#        field:
+#          element: "textarea"
+#          label: "Subtitle"
+#          placeholder: "A description of your post."
+#          alterable: true
+#      - name: "date"
+#        field:
+#          element: "text"
+#          label: "Date"
+#          help: "Enter date of post."
+#          placeholder: "yyyy-mm-dd"
+#          alterable: true
+#      - name: "image"
+#        field:
+#          element: "text"
+#          label: "Image"
+#          help: "Add a thumbnail image to your post."
+#          placeholder: "Thumbnail"
+#          alterable: true
+#      - name: "published"
+#        field:
+#          element: "checkbox"
+#          label: "Publish"
+#          help: "Check to publish post, uncheck to hide."
+#
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
