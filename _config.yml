@@ -4,14 +4,14 @@
 title: 挑战我自己
 
 # Short description of your site
-#description: 与时俱进
+description: 表达自己的观点，分享有用的知识
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
 
 # url is the the website domain URL without a trailing slash
-#url: "https://example.com"
+url: "https://tigerwolf.top"
 
 # baseurl should be an empty string
 #baseurl: ""
@@ -60,25 +60,25 @@ footer-link-col: "#404040"
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
-#author:
-#  name: LQ
+# author:
+  name: LQ
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
-#social-network-links:
-#  rss: true
-#  email: "liuqiasdfzxcv@gmail.com"
-#  facebook: deanattali
-#  github: daattali
+# social-network-links:
+  rss: true
+  email: "liuqiasdfzxcv@gmail.com"
+  facebook: benjamin.liu.90813
+  github: Forecasters
 #  twitter: daattali
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-#  instagram: deanat78
+  instagram: benjamin.liu.90813
 #  youtube: user/deanat78
 #  spotify: yourname
 #  telephone: +14159998888
@@ -87,10 +87,10 @@ footer-link-col: "#404040"
 #  yelp: yourname
 
 # Select which share links to show in posts
-#share-links-active:
-#  twitter: true
-#  facebook: true
-#  linkedin: true
+# share-links-active:
+  twitter: true
+  facebook: true
+  linkedin: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
@@ -157,7 +157,7 @@ date_format: "%B %-d, %Y"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "China/Beijing"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
@@ -198,57 +198,57 @@ exclude:
   - Vagrantfile
 
 # prose.io config
-prose:
-  rooturl: '_posts'
-  media: 'img'
-  ignore:
-    - 404.html
-    - LICENSE
-    - feed.xml
-    - _config.yml
-    - /_layouts
-    - /_includes
-    - /css
-    - /img
-    - /js
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Post title"
-          placeholder: "Title"
-          alterable: true
-      - name: "subtitle"
-        field:
-          element: "textarea"
-          label: "Subtitle"
-          placeholder: "A description of your post."
-          alterable: true
-      - name: "date"
-        field:
-          element: "text"
-          label: "Date"
-          help: "Enter date of post."
-          placeholder: "yyyy-mm-dd"
-          alterable: true
-      - name: "image"
-        field:
-          element: "text"
-          label: "Image"
-          help: "Add a thumbnail image to your post."
-          placeholder: "Thumbnail"
-          alterable: true
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Publish"
-          help: "Check to publish post, uncheck to hide."
-
+# prose:
+#  rooturl: '_posts'
+#  media: 'img'
+#  ignore:
+#    - 404.html
+#    - LICENSE
+#    - feed.xml
+#    - _config.yml
+#    - /_layouts
+#    - /_includes
+#    - /css
+#    - /img
+#    - /js
+#  metadata:
+#    _posts:
+#      - name: "layout"
+#        field:
+#          element: "hidden"
+#          value: "post"
+#      - name: "title"
+#        field:
+#          element: "text"
+#          label: "Post title"
+#          placeholder: "Title"
+#          alterable: true
+#      - name: "subtitle"
+#        field:
+#          element: "textarea"
+#          label: "Subtitle"
+#          placeholder: "A description of your post."
+#          alterable: true
+#      - name: "date"
+#        field:
+#          element: "text"
+#          label: "Date"
+#          help: "Enter date of post."
+#          placeholder: "yyyy-mm-dd"
+#          alterable: true
+#      - name: "image"
+#        field:
+#          element: "text"
+#          label: "Image"
+#          help: "Add a thumbnail image to your post."
+#          placeholder: "Thumbnail"
+#          alterable: true
+#      - name: "published"
+#        field:
+#          element: "checkbox"
+#          label: "Publish"
+#          help: "Check to publish post, uncheck to hide."
+#
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
