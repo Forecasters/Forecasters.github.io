@@ -20,8 +20,8 @@ url: "https://tigerwolf.top"
 
 # List of links in the navigation bar
 navbar-links:
-  About Us: "About"
-  Lynda: "Post"
+  关于我们: "About"
+  仿Lynda主页: "Post"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
