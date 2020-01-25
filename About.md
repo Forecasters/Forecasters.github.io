@@ -1,7 +1,5 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
 ---
 
 ### 新新青年：喜欢摇滚，喜欢反思。表达自己的观点，分享有用的知识。
