@@ -4,13 +4,9 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+### 新新青年：喜欢摇滚，喜欢反思。表达自己的观点，分享有用的知识。
+- **[摇滚](http://music.163.com/playlist/2537340758/45607861/?userid=45607861)**
+- **民主**
+- **自由**
+- **科学**
+- **法制**
