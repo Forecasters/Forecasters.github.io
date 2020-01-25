@@ -130,6 +130,36 @@
 
       gtag('config', 'UA-156899913-1');
     </script>
+    
+    <script>
+        function includeHTML() {
+          var z, i, elmnt, file, xhttp;
+          /*loop through a collection of all HTML elements:*/
+          z = document.getElementsByTagName("*");
+          for (i = 0; i < z.length; i++) {
+            elmnt = z[i];
+            /*search for elements with a certain atrribute:*/
+            file = elmnt.getAttribute("w3-include-html");
+            if (file) {
+              /*make an HTTP request using the attribute value as the file name:*/
+              xhttp = new XMLHttpRequest();
+              xhttp.onreadystatechange = function() {
+                if (this.readyState == 4) {
+                  if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+                  if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                  /*remove the attribute, and call this function once more:*/
+                  elmnt.removeAttribute("w3-include-html");
+                  includeHTML();
+                }
+              }      
+              xhttp.open("GET", file, true);
+              xhttp.send();
+              /*exit the function:*/
+              return;
+            }
+          }
+        };
+        </script>
 
     
 </head>
@@ -834,6 +864,12 @@
                                                         Views: 8,052,034
                                                     </span>
                                                 </div>
+                                                
+                                                <div w3-include-html="index_newest.html">
+                                                
+                                                
+                                                
+                                                </div>
                                             </div>
                                             <div class="col-xs-2 action-buttons popover-trigger hidden-xs">
                                                 <div role="button" class="action-playlist playlist-control added ga ga-no-bubble ga-multiple" data-ga-action="click" data-ga-label="course-playlist: Section PopularAtCompany: Tile 1: HTML Essential Training" data-course-id="170427" data-playlist-ids="21743639" data-container=".page-main" data-toggle="tooltip" data-placement="top" title="" data-bookmark-title="Bookmark" data-popover-pos="bottom" tabindex="0" data-original-title="Playlist">
@@ -1046,6 +1082,8 @@ var lynda = {"sessionId":"5c5bfd89-908c-49f9-8291-2e43fb6e710b","browserId":"055
 <script type="text/deferred" data-src="https://cdn.lynda.com/static/search/js/search-tracking.min-6ae269fe.js"></script>
 <script type="text/deferred" data-src="https://cdn.lynda.com/static/member/js/homepage.bundle.min-b38df250.js"></script>
 
+<script>includeHTML();
+</script>
 
 <script>
     (function () {
