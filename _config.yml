@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: TigerWolf
+title: 挑战我自己
 
 # Short description of your site
-description: Express opinions and share knowledge
+description: 表达自己的观点，分享有用的知识
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -28,7 +28,7 @@ url: "https://tigerwolf.top"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-#avatar: "/img/avatar-icon.png"
+avatar: "/img/avatar-icon.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -38,15 +38,15 @@ url: "https://tigerwolf.top"
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-#navbar-col: "#F5F5F5"
-#navbar-text-col: "#404040"
-#navbar-children-col: "#F5F5F5"
-#page-col: "#FFFFFF"
-#link-col: "#008AFF"
-#hover-col: "#0085A1"
-#footer-col: "#F5F5F5"
-#footer-text-col: "#777777"
-#footer-link-col: "#404040"
+navbar-col: "#F5F5F5"
+navbar-text-col: "#404040"
+navbar-children-col: "#F5F5F5"
+page-col: "#FFFFFF"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#F5F5F5"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
@@ -132,7 +132,7 @@ gtag: "UA-156899913-1"
 #  branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
 #  endpoint   : # URL of your own deployment, with a trailing slash (will fallback to a public GitLab instance) eg. https://<your-api>/v3/entry/github/
 #  reCaptcha:
-   # reCaptcha for Staticman (OPTIONAL, but recommended for spam protection)
+    # reCaptcha for Staticman (OPTIONAL, but recommended for spam protection)
     # If you use reCaptcha, you must also set these parameters in staticman.yml
 #    siteKey  : # Use your own site key, you need to apply for one on Google
 #    secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
@@ -197,57 +197,57 @@ exclude:
   - Vagrantfile
 
 # prose.io config
-#prose:
-#  rooturl: '_posts'
-#  media: 'img'
-#  ignore:
-#    - 404.html
-#    - LICENSE
-#    - feed.xml
-#    - _config.yml
-#    - /_layouts
-#    - /_includes
-#    - /css
-#    - /img
-#    - /js
-#  metadata:
-#    _posts:
-#      - name: "layout"
-#        field:
-#          element: "hidden"
-#          value: "post"
-#      - name: "title"
-#        field:
-#          element: "text"
-#          label: "Post title"
-#          placeholder: "Title"
-#          alterable: true
-#      - name: "subtitle"
-#        field:
-#          element: "textarea"
-#          label: "Subtitle"
-#          placeholder: "A description of your post."
-#          alterable: true
-#      - name: "date"
-#        field:
-#          element: "text"
-#          label: "Date"
-#          help: "Enter date of post."
-#          placeholder: "yyyy-mm-dd"
-#          alterable: true
-#      - name: "image"
-#        field:
-#          element: "text"
-#          label: "Image"
-#          help: "Add a thumbnail image to your post."
-#          placeholder: "Thumbnail"
-#          alterable: true
-#      - name: "published"
-#        field:
-#          element: "checkbox"
-#          label: "Publish"
-#          help: "Check to publish post, uncheck to hide."
-#
+prose:
+  rooturl: '_posts'
+  media: 'img'
+  ignore:
+    - 404.html
+    - LICENSE
+    - feed.xml
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /css
+    - /img
+    - /js
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Post title"
+          placeholder: "Title"
+          alterable: true
+      - name: "subtitle"
+        field:
+          element: "textarea"
+          label: "Subtitle"
+          placeholder: "A description of your post."
+          alterable: true
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          help: "Enter date of post."
+          placeholder: "yyyy-mm-dd"
+          alterable: true
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image"
+          help: "Add a thumbnail image to your post."
+          placeholder: "Thumbnail"
+          alterable: true
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Publish"
+          help: "Check to publish post, uncheck to hide."
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
