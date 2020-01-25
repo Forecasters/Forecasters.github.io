@@ -1,26 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        
-        <style>
-            img {
-                display:block;
-                max-height: 100%;
-                max-width: 100%;
-                margin: auto;
-            }
-            h1,p {
-                font-size:50px;
-                text-align:center;
-                margin: 0 auto 0 auto;
-            }
-        </style>
-        
-        <title>404</title>
-    </head>
-    <body>
-        <h1>404，页面不存在</h1>
-        <img src="./img_index/404-tigerwolf.jpg" />
-    </body>
-</html>
+---
+layout: default
+title: 404 - Page not found
+permalink: /404.html
+---
 
+<div class="text-center">
+  <h1>Whoops, this page doesn't exist.</h1>
+  <h1>Move along. (404 error)</h1>
+  <br/>
+
+  <img src="{{ 'img/404-southpark.jpg' | relative_url }}" />
+</div>
