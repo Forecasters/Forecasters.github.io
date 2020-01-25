@@ -19,8 +19,8 @@ url: "https://tigerwolf.top"
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
-navbar-links:
-  About Me: "About"
+#navbar-links:
+#  About Me: "About"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
