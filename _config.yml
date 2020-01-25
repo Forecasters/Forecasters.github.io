@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: 挑战我自己
+title: MyBlog
 
 # Short description of your site
-description: 表达自己的观点，分享有用的知识
+description: Opinions and knowledge
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
