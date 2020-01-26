@@ -36,5 +36,5 @@ image: /img/virus_500x500.jpg
 **10.最后，如果你在照顾一个发烧的朋友或家人，当你靠近他们时，一定要戴上一个紧身口罩，并给生病的人戴上一个。**当你从你的朋友或家人的脸上换掉一个旧的、脏的口罩时，要非常小心，为了保护自己，应该戴着乳胶手套处理它，把它放在一次性容器里，密封，然后扔进垃圾桶。戴上乳胶手套后，用温热的肥皂和水，一次性纸巾或棉签轻轻地清洗病人的脸，然后在容器或塑料袋中密封，再放入家庭垃圾桶中。当你照顾生病的朋友或家人时，穿上长袖衬衫和覆盖身体的衣服。用热肥皂水彻底清洗患者穿戴或接触的所有物品，包括床单、毛巾和餐具。如果有空间，把家里的病人隔离在一个房间或者房间的一个角落里。如果天气允许，打开房间另一侧的窗户，让空气轻轻地吹过病人的脸，然后吹到室外。
 
 
-:tw-1f31e: *Laurie Garrett is a former senior fellow for global health at the Council on Foreign Relations and a Pulitzer Prize winning science writer.*
+*Laurie Garrett is a former senior fellow for global health at the Council on Foreign Relations and a Pulitzer Prize winning science writer.*
 
