@@ -2,7 +2,7 @@
 layout: post
 title: Microsoft store
 tags: [信息技术, 操作系统]
-image: /img/virus_500x500.jpg
+image: /img/microsoft_640x640.jpg
 ---
 **Windows 10 Microsoft store 中应用下载目录：**
 
