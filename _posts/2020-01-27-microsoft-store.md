@@ -2,7 +2,7 @@
 layout: post
 title: Microsoft store
 tags: [信息技术, 操作系统]
-image: /img/microsoft_640x640.jpg
+image: /img/microsoft_640x640.png
 ---
 **Windows 10 Microsoft store 中应用下载目录：**
 
