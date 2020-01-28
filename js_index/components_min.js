@@ -980,7 +980,7 @@ mejs.i18n.t = lynda.translate = function(n) {
 !function(t) {
     MediaElementPlayer.prototype.buildcustomcc = function(a, n, c, i) {
         if (!t("html").hasClass("no-cc")) {
-            var e = t(".mejs-captions-button button", n).append('<i class="lyndacon closed-captioning"></i>');
+            var e = t(".mejs-captions-button button", n).append('<i class=" closed-captioning"></i>');
             e.attr("id", "player-cc"),
             e.attr("title", lynda.translate("Captions/Subtitles"))
         }
@@ -1349,7 +1349,7 @@ mejs.i18n.t = lynda.translate = function(n) {
 }(mejs.$);
 !function(a) {
     function e(e) {
-        a('.lyndacon.code[data-ga-value="' + e + '"]').length > 0 ? a(".mejs-button.mejs-code-practice").removeClass("hide").show() : a(".mejs-button.mejs-code-practice").hide()
+        a('..code[data-ga-value="' + e + '"]').length > 0 ? a(".mejs-button.mejs-code-practice").removeClass("hide").show() : a(".mejs-button.mejs-code-practice").hide()
     }
     MediaElementPlayer.prototype.buildcodepractice = function(t, c, i, n) {
         var o = a("body");
@@ -1400,7 +1400,7 @@ mejs.i18n.t = lynda.translate = function(n) {
 }(jQuery);
 !function(e) {
     MediaElementPlayer.prototype.buildcustomfullscreen = function(l, n, a, t) {
-        var i = e(".mejs-fullscreen-button button", n).append('<i class="lyndacon player-minimize-full-screen"></i><i class="lyndacon player-maximize-full-screen"></i>');
+        var i = e(".mejs-fullscreen-button button", n).append('<i class=" player-minimize-full-screen"></i><i class=" player-maximize-full-screen"></i>');
         i.attr("id", "player-fs"),
         i.attr("title", lynda.translate("Full screen (f)")),
         i.on("click", function() {
@@ -1416,7 +1416,7 @@ mejs.i18n.t = lynda.translate = function(n) {
 !function(e) {
     MediaElementPlayer.prototype.buildnext = function(t, n, a, i) {
         var l = lynda.translate("Next Video (l)");
-        e('<div class="mejs-button mejs-next-button"><button id="player-next" type="button" aria-controls="' + this.id + '" aria-label="' + l + '" title="' + l + '" disabled="disabled"><i class="lyndacon player-next-video"></i></button></div>').appendTo(n).click(function() {
+        e('<div class="mejs-button mejs-next-button"><button id="player-next" type="button" aria-controls="' + this.id + '" aria-label="' + l + '" title="' + l + '" disabled="disabled"><i class=" player-next-video"></i></button></div>').appendTo(n).click(function() {
             e("#player-next:disabled").length || (e("body").trigger("ga.event", {
                 action: "click",
                 label: "player-next"
@@ -1435,7 +1435,7 @@ mejs.i18n.t = lynda.translate = function(n) {
                 "aria-label": e
             })
         }
-        var n = a(".mejs-playpause-button button", p).append('<i class="lyndacon player-pause"></i>');
+        var n = a(".mejs-playpause-button button", p).append('<i class=" player-pause"></i>');
         n.attr("id", "player-playpause");
         var y = a(".mejs-playpause-button button i");
         this.options.playText,
@@ -1460,8 +1460,8 @@ mejs.i18n.t = lynda.translate = function(n) {
         var a = lynda.translate("The video is currently playing in a different window.")
           , p = lynda.translate("Play video here instead")
           , s = lynda.translate("Popout Video (p)");
-        o.customPopoutPanel = t('<div class="mejs-popout-layer mejs-layer"><div class="mejs-popout-layer-content popout">' + a + '<br><button id="btn-closePopout" type="button" class="btn btn-secondary "><i class="lyndacon"></i> <span>' + p + "</span></button></div></div>").prependTo(n).hide(),
-        t('<div class="mejs-settings-section popout"><div class="mejs-button mejs-popout-button"><button id="player-popout" type="button" aria-controls="' + this.id + '" aria-label="' + s + '"><i class="lyndacon player-pop-out"></i>' + s + "</button></div></div>").appendTo(".mejs-settings-position").click(function() {
+        o.customPopoutPanel = t('<div class="mejs-popout-layer mejs-layer"><div class="mejs-popout-layer-content popout">' + a + '<br><button id="btn-closePopout" type="button" class="btn btn-secondary "><i class=""></i> <span>' + p + "</span></button></div></div>").prependTo(n).hide(),
+        t('<div class="mejs-settings-section popout"><div class="mejs-button mejs-popout-button"><button id="player-popout" type="button" aria-controls="' + this.id + '" aria-label="' + s + '"><i class=" player-pop-out"></i>' + s + "</button></div></div>").appendTo(".mejs-settings-position").click(function() {
             t(".mejs-settings-layer").hide(),
             t("body").trigger("ga.event", {
                 action: "click",
@@ -1513,7 +1513,7 @@ mejs.i18n.t = lynda.translate = function(n) {
 !function(e) {
     MediaElementPlayer.prototype.buildprevious = function(i, t, a, l) {
         var o = lynda.translate("Previous Video (j)");
-        e('<div class="mejs-button mejs-previous-button"><button id="player-previous" type="button" aria-controls="' + this.id + '" aria-label="' + o + '" title="' + o + '" disabled="disabled"><i class="lyndacon player-prev-video"></i></button></div>').appendTo(t).click(function() {
+        e('<div class="mejs-button mejs-previous-button"><button id="player-previous" type="button" aria-controls="' + this.id + '" aria-label="' + o + '" title="' + o + '" disabled="disabled"><i class=" player-prev-video"></i></button></div>').appendTo(t).click(function() {
             e("#player-previous:disabled").length || (e("body").trigger("ga.event", {
                 action: "click",
                 label: "player-back"
@@ -1551,7 +1551,7 @@ mejs.i18n.t = lynda.translate = function(n) {
             lynda && !lynda.hasPlayerSpeedMenu && (r = !0,
             d = '<div class="mejs-settings-layer">                            <div class="mejs-popout-menu mejs-settings-position">                                <div class="mejs-settings-section">                                    <p>' + lynda.translate("Playback Speed") + '</p>                                    <ul class="playback-rates">                                        <li><a data-playback-rate="2" tabindex="0">2x</a></li>                                        <li><a data-playback-rate="1.75" tabindex="0">1.75x</a></li>                                        <li><a data-playback-rate="1.5" tabindex="0">1.5x</a></li>                                        <li><a data-playback-rate="1.25" tabindex="0">1.25x</a></li>                                    </ul>                                    <ul class="playback-rates">                                        <li><a data-playback-rate="1" tabindex="0" class="current">1x</a></li>                                        <li><a data-playback-rate=".75" tabindex="0">.75x</a></li>                                        <li><a data-playback-rate=".5" tabindex="0">.5x</a></li>                                    </ul>                                </div>                                <hr />                                <div class="mejs-settings-section">                                    <p>' + lynda.translate("Video Quality") + '</p>                                    <ul class="stream-qualities">                                        <li><a data-quality="360" tabindex="0">360p</a></li>                                        <li><a data-quality="540" tabindex="0" class="current">540p</a></li>                                        <li><a data-quality="720" tabindex="0">720p HD</a></li>                                    </ul>                                </div>                                <hr class="hrContinuous"/>                                <div class="mejs-settings-section">                                    <div class="continuous-play">                                        <p>' + lynda.translate("Auto Play") + '</p>                                        <span><a data-continuous-play="true" tabindex="0" class="current">' + lynda.translate("ON") + '</a></span>                                        <span><a data-continuous-play="false" tabindex="0">' + lynda.translate("OFF") + '</a></span>                                    </div>                                </div>\t\t\t\t\t\t\t\t<hr class="hrFullscreen"/>                            </div>                        </div>');
             var c = lynda.translate("Settings Menu")
-              , u = a('<div class="mejs-button mejs-settings-button"><button id="player-settings" type="button" aria-controls="' + this.id + '" aria-label="' + c + '" title="' + c + '"><i class="lyndacon player-settings"></i></button></div>').appendTo(e)
+              , u = a('<div class="mejs-button mejs-settings-button"><button id="player-settings" type="button" aria-controls="' + this.id + '" aria-label="' + c + '" title="' + c + '"><i class=" player-settings"></i></button></div>').appendTo(e)
               , o = a(d).appendTo(i).hide()
               , p = l();
             if (p) {
@@ -1662,7 +1662,7 @@ mejs.i18n.t = lynda.translate = function(n) {
         buildskipback: function(e, a, i, n) {
             var s = this
               , l = s.options.skipBackText.replace("%1", s.options.skipBackInterval) + " " + lynda.translate("(left arrow)");
-            t('<div class="mejs-button mejs-skip-back-button"><button id="player-skip-back" type="button" aria-controls="' + s.id + '" title="' + l + '" aria-label="' + l + '"><i class="lyndacon player-rewind"></i></button></div>').appendTo(a).click(function() {
+            t('<div class="mejs-button mejs-skip-back-button"><button id="player-skip-back" type="button" aria-controls="' + s.id + '" title="' + l + '" aria-label="' + l + '"><i class=" player-rewind"></i></button></div>').appendTo(a).click(function() {
                 t("body").trigger("ga.event", {
                     action: "click",
                     label: "player-skip-back"
@@ -1768,7 +1768,7 @@ mejs.i18n.t = lynda.translate = function(n) {
                 path: "/"
             })
         }
-        var m = e(".mejs-volume-button button", a).append('<i class="lyndacon player-volume"></i>');
+        var m = e(".mejs-volume-button button", a).append('<i class=" player-volume"></i>');
         m.attr("id", "player-mute-toggle"),
         m.attr("title", lynda.translate("Mute")),
         m.attr("aria-label", lynda.translate("Mute"));
@@ -4708,7 +4708,7 @@ dropdowns.start();
         a.on("click", ".fader", function() {
             t(this).siblings("input").select()
         }),
-        a.on("click focus", ".share-controls .lyndacon.link", function() {
+        a.on("click focus", ".share-controls ..link", function() {
             var e = t(this).siblings("button");
             e.is(":visible") ? e.click() : e.siblings("input").select()
         })
@@ -5263,7 +5263,7 @@ if (lynda.timing && supportsNavigationTiming()) {
             }, 500)) : n.remove()
         },
         template: function(t) {
-            return '<li id="toast-' + Date.now() + '" class="toast ' + (t.position || "bl") + " " + (t.animated ? " animate-in " + ("bl" === t.position || "br" === t.position ? "fromBottom" : "fromTop") : "regular") + " " + (t.type || "info") + '" style="width: ' + (t.width || 450) + 'px;"><aside class="toast-type"><i class="lyndacon ' + (t.type ? ("info" === t.type ? "info" : "") + "" + ("success" === t.type ? "checkmark-success" : "") + ("error" === t.type ? "close-x" : "") : "info") + '"  aria-hiddden="true">&nbsp;</i></aside><section class="toast-message"><p>' + (t.message || "") + '</p><button class="toast-close"><i class="lyndacon close-x" aria-hidden="true"></i></button></section></li>'
+            return '<li id="toast-' + Date.now() + '" class="toast ' + (t.position || "bl") + " " + (t.animated ? " animate-in " + ("bl" === t.position || "br" === t.position ? "fromBottom" : "fromTop") : "regular") + " " + (t.type || "info") + '" style="width: ' + (t.width || 450) + 'px;"><aside class="toast-type"><i class=" ' + (t.type ? ("info" === t.type ? "info" : "") + "" + ("success" === t.type ? "checkmark-success" : "") + ("error" === t.type ? "close-x" : "") : "info") + '"  aria-hiddden="true">&nbsp;</i></aside><section class="toast-message"><p>' + (t.message || "") + '</p><button class="toast-close"><i class=" close-x" aria-hidden="true"></i></button></section></li>'
         },
         boot: function() {
             t(document).ready(function() {

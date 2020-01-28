@@ -1829,7 +1829,7 @@
     font-weight: 600
 }
 
-#homepage .right-rail .courses-section .module-body .show-more-container .show-more .lyndacon {
+#homepage .right-rail .courses-section .module-body .show-more-container .show-more . {
     margin-left: 10px
 }
 
@@ -1892,11 +1892,11 @@
     display: none
 }
 
-#homepage .lyndacon {
+#homepage . {
     vertical-align: middle
 }
 
-#homepage .lyndacon.single-bookmark {
+#homepage ..single-bookmark {
     font-weight: 700
 }
 
