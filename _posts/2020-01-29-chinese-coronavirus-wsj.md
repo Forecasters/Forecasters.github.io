@@ -60,7 +60,7 @@ image: /img/coronavirus_1000x1000.png
 
 ### 口罩可以保护你吗？
 
-卫生专家和口罩制造商说，只有一个经过独立机构认证的正确使用的可重复使用的N95口罩，才能既预防病毒，又保护他人。纸或聚氨酯泡沫口罩不能过滤出传播传染源的小颗粒。**经常更换一次性口罩，然后洗手，是避免附着在外表面的病原体污染的重要步骤**
+卫生专家和口罩制造商说，只有一个经过独立机构认证的正确使用的可重复使用的N95口罩，才能既预防病毒，又保护他人。纸或聚氨酯泡沫口罩不能过滤出传播传染源的小颗粒。**经常更换一次性口罩，然后洗手，是避免附着在外表面的病原体污染的重要步骤。**
 > Sources: BMC Infectious Diseases; The Journal of Hospital Infection
 > Research: Taylor Umlauf and Lindsay Huth Graphic: Alberto Cervantes/THE WALL STREET JOURNAL
 
