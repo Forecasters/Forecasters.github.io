@@ -20,7 +20,7 @@ url: "https://tigerwolf.top"
 
 # List of links in the navigation bar
 navbar-links:
-  关于我们: 
+  我们: 
     - 简历: "About"
     - 目标: "Target"
 #  仿Lynda主页: "index_lynda"
