@@ -4,7 +4,6 @@ title: 对中国新型冠状病毒的了解
 tags: [医药健康,常识,其他,历史]
 image: /img/coronavirus_1000x1000.png
 ---
-##  对中国新型冠状病毒的了解
 
 > **翻译自 [What to Know About the New Chinese Coronavirus](https://www.wsj.com/articles/what-we-know-about-the-wuhan-virus-11579716128)** 2020-01-28
 
