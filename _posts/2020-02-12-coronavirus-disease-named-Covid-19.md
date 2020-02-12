@@ -10,4 +10,4 @@ image: /img/coronavirus_1000x1000.png
 
 该病毒本身已被国际病毒分类学委员会命名为SARS-CoV-2。
 
-![Cases of coronavirus outside China](https://tigerwolf.top/img/_110852981_optimised-globalmapfinal-nc.png)
+![Cases of coronavirus outside China](https://tigerwolf.top/img/optimised-globalmapfinal-nc.png)
